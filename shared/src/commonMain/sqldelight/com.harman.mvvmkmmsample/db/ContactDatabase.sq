@@ -1,0 +1,27 @@
+CREATE TABLE Contact (id INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT,
+firstname TEXT NOT NULL ,
+lastname TEXT NOT NULL,
+phone  INTEGER NOT NULL,
+email  TEXT NOT NULL
+);
+
+saveContact:
+ INSERT OR FAIL INTO Contact(firstname,lastname,phone ,email)
+ VALUES (? , ?,? ,?);
+
+getContactById:
+SELECT * FROM Contact WHERE id = ? ;
+
+deleteContact:
+DELETE FROM Contact WHERE id = ? ;
+
+getAllContact:
+SELECT * FROM Contact;
+
+filterContact:
+SELECT  * FROM Contact WHERE firstname LIKE ('%' || :filter) ;
+
+selectLastInsertedRowId:
+SELECT last_insert_rowid();
+
+
