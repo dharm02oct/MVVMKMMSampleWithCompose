@@ -6,7 +6,7 @@
     <data>
         <variable
             name="contact"
-            type="com.harman.mvvmkmmsample.domain.model.Contact" />
+            type="com.sample.mvvmkmmsample.domain.model.Contact" />
     </data>
 
     <androidx.constraintlayout.widget.ConstraintLayout

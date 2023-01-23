@@ -6,7 +6,7 @@
 
     <fragment
         android:id="@+id/contactListFragment"
-        android:name="com.harman.mvvmkmmsample.android.ui.contacts.ContactListFragment"
+        android:name="com.sample.mvvmkmmsample.android.ui.contacts.ContactListFragment"
         android:label="@string/contacts">
         <action
             android:id="@+id/editContact"
@@ -23,7 +23,7 @@
     </fragment>
     <fragment
         android:id="@+id/editContactFragment"
-        android:name="com.harman.mvvmkmmsample.android.ui.editcontact.EditContactFragment"
+        android:name="com.sample.mvvmkmmsample.android.ui.editcontact.EditContactFragment"
         android:label="@string/edit_contact">
         <argument
             android:name="contactId"
@@ -37,7 +37,7 @@
     </fragment>
     <fragment
         android:id="@+id/viewContactFragment"
-        android:name="com.harman.mvvmkmmsample.android.ui.viewcontact.ViewContactFragment"
+        android:name="com.sample.mvvmkmmsample.android.ui.viewcontact.ViewContactFragment"
         android:label="@string/view_contact">
         <argument
             android:name="contactId"
@@ -48,11 +48,11 @@
     </fragment>
     <fragment
         android:id="@+id/viewAboutFragment"
-        android:name="com.harman.mvvmkmmsample.android.ui.about.AboutFragment"
+        android:name="com.sample.mvvmkmmsample.android.ui.about.AboutFragment"
         android:label="@string/view_about">
     </fragment>
     <fragment
         android:id="@+id/githubUsersFragment"
-        android:name="com.harman.mvvmkmmsample.android.ui.users.GithubUsersFragment"
+        android:name="com.sample.mvvmkmmsample.android.ui.users.GithubUsersFragment"
         android:label="@string/github_users" />
 </navigation>

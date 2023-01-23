@@ -9,7 +9,7 @@
 
         <variable
             name="viewModel"
-            type="com.harman.mvvmkmmsample.android.ui.users.GithubUsersViewModel" />
+            type="com.sample.mvvmkmmsample.android.ui.users.GithubUsersViewModel" />
     </data>
 
     <androidx.constraintlayout.widget.ConstraintLayout
