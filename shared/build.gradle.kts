@@ -102,7 +102,7 @@ kotlin {
 
     sqldelight {
         database("ContactDatabase") {
-            packageName = "com.harman.mvvmkmmsample.db"
+            packageName = "com.sample.mvvmkmmsample.db"
         }
         linkSqlite = true
     }

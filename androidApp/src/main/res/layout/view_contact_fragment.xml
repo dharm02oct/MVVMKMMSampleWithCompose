@@ -7,7 +7,7 @@
 
         <variable
             name="viewModel"
-            type="com.harman.mvvmkmmsample.android.ui.viewcontact.ViewContactViewModel" />
+            type="com.sample.mvvmkmmsample.android.ui.viewcontact.ViewContactViewModel" />
     </data>
 
     <androidx.constraintlayout.widget.ConstraintLayout

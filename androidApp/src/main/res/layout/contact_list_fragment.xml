@@ -9,7 +9,7 @@
 
         <variable
             name="viewModel"
-            type="com.harman.mvvmkmmsample.android.ui.contacts.ContactListViewModel" />
+            type="com.sample.mvvmkmmsample.android.ui.contacts.ContactListViewModel" />
     </data>
 
     <androidx.constraintlayout.widget.ConstraintLayout
