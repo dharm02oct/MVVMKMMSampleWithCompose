@@ -41,7 +41,7 @@ fun userList(userList: Flow<PagingData<User>>){
           if (it != null) {
               userItem(user = it) {
                   println("clicked item : $it")
-              }
+              }as
               Divider(color = Color.LightGray)
           }
       }

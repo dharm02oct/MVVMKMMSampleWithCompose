@@ -18,6 +18,8 @@ class GithubUsersViewModel constructor(
 
     val users: Flow<PagingData<User>> =
         flow {
+                _isLoading.value = true
                emitAll(getUsers.execute(null).cachedIn(viewModelScope))
+             _isLoading.value = false
         }
 }
